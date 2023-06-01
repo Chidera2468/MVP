@@ -1,0 +1,71 @@
+API:
+List of API routes for face detention
+Kairo face recognition: Offers a wide variety of image recognition solutions through their API. Their API endpoints include identifying gender, age, emotional depth, facial recognition in both photo and video, and more.
+Animetrics face recognition: The Animetrics Face Recognition API can be used to find human faces, detect feature points, correct for off-angle photographs, and ultimately perform facial recognition. Information on facial features, including ears, nose, eyebrows, lips, chin are returned as coordinates on the image. The Animetrics Face Recognition API will also detect and return the gender and orientation, or "pose" of faces along 3 axes.
+A special capability called "SetPose" is also available which allows the face to be re-rendered at a desired pose that is different than the captured pose. I.e. as if the photo was taken with respect to any desired angle relative to the camera. This is typically used when the facial photo is captured off-angle and a zero-corrected fully frontal image (0 degrees pitch, yaw, and roll) is required.
+Detected facial features may be corrected or modified to improve the final results of subsequent steps. For example, an eye in the picture may be hidden or obscured; requesting just eye feature points, manually correcting their locations, and feeding this data into a more detailed request will help improve the accuracy of the additional feature point and pose detection.
+Lambda labs: With over 1,000 calls per month in the free pricing tier and only $0.0024 per extra API call, this API is a really affordable option for developers wanting to use a facial recognition API.
+Their API provides:
+
+-face recognition
+-face detection
+-eye position
+-nose position
+-mouth position
+-gender classification
+Inferdo face detention: Face Detection API that detects the location of human faces in your images. Use our Face Details API to detect faces, gender, age, and other facial features.
+Use the Age and Gender endpoint to get data on predicted binary genders for each face and an age range of possible ages for the faces detected.
+Luxand.cloud face recognition: Detect and compare human faces. Identify previously tagged people in images. Recognize age, gender, and emotion in the photo.
+Some highlights of this API include:
+
+-Searching for people in a specific photo
+-Verification
+-Looking for a specific person in the collection of photos
+-Detect the gender, age and emotions on photo
+-Create the gallery to store images in a cloud with face recognition
+EyeRecognize face detection: Provides coordinates for all faces detected and associated facial features such as eyes, nose, mouth, skin tone, and hair color. This API also returns several biometric features still in development to include gender, race, and age estimation.
+
+Overview of Features
+The API accepts a URL to an image and returns the following information:
+
+Coordinates (Box - Top Left XY; Bottom Right XY)
+
+-Face
+-Left Eye
+-Right Eye
+-Mouth
+-Nose
+-Analytics
+
+Face to Image Ratio
+-Hair Color
+-Skin Color
+-Eye Color
+
+
+USER STORY:
+A user story is a small unit of work in an Agile workflow. It is a short, written explanation of a particular user’s need and how it can be fulfilled. There is no room for jargon in a user story. It is written in easily accessible language to provide a clear picture of what the user requires.
+
+Five steps for writing user stories
+
+Step 1: Outline acceptance criteria
+The definition of done is the set of criteria that needs to be fulfilled for your user story to be considered complete. Define the specific acceptance criteria for each user story and use it as a checklist.
+
+Step 2: Decide on user personas
+Conduct extensive user research by creating surveys, hosting focus groups, and reading user forums. Analyze your data and search for patterns to identify your key personas.
+
+Step 3: Create tasks
+Break your user story down into numerous tasks to make it more manageable. If it is a complex requirement, you can also add subtasks. Include detailed descriptions, so your team is aligned on what each task requires.
+
+Step 4: Map stories 
+Use story mapping to structure work in a large process. In this case, your user stories will take the form of ordered steps.
+
+Step 5: Request feedback
+Speak to users and potential customers to find out what they want. Ask them for their opinions on existing products or if they have suggestions for new features. Incorporate this feedback into your user story.
+
+4 user stories that will be satisfied when my MVP is completed.
+Identify threats quickly.
+Speed and accuracy.
+Improve security at the workplace.
+Ease tracking of employees.
+
